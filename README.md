@@ -11,3 +11,4 @@ To use this project do the following:
 2. From the code section of the repository click the green code button, select Codespaces
 tab in the popup and click the + button to create a codespace (you will be able to use this codespace
 in the browser or in a local installation of vs code) for more info [go here](https://docs.github.com/en/codespaces/developing-in-a-codespace/opening-an-existing-codespace)
+![Screenshot](codespace_usage.png)
