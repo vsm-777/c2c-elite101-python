@@ -12,3 +12,4 @@ To use this project do the following:
 tab in the popup and click the + button to create a codespace (you will be able to use this codespace
 in the browser or in a local installation of vs code) for more info [go here](https://docs.github.com/en/codespaces/developing-in-a-codespace/opening-an-existing-codespace)
 ![Screenshot](codespace_usage.png)
+3. To run the starter program, in a terminal run python main.py
