@@ -30,18 +30,19 @@ def options(name):
     print()
     return input("Which option would you like to choose? ")
 
-def user_choice(choice):
+def user_choice(name,choice):
     while choice != '4':
         if choice == '1':
-            print("You selected option 1.")
+            print("You selected option 1.\n")
         elif choice == '2':
-            print("You selected option 2.")
+            print("You selected option 2.\n")
         elif choice == '3':
-            print("You selected option 3.")
-        elif choice == '4':
-            print("Exiting the conversation. Goodbye!")
+            print("You selected option 3.\n")
         else:
-            print("Invalid choice. Please select a valid option.")
+            print("Invalid choice. Please select a valid option.\n")
+
+        choice = options(name)
+    print("Exiting the conversation. Goodbye!")
 
 
 
@@ -49,6 +50,7 @@ def main():
     user_name = get_user_name()
     age=greet_user(user_name)
     choice=options(user_name)
+    user_choice(user_name,choice)
 
 if __name__ == "__main__":
     main()
